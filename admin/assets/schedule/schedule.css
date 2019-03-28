@@ -1,0 +1,118 @@
+p.submit {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0;
+    vertical-align: top;
+}
+
+.inbox-first_page_inbox-first-schedule {
+    background: #32383c;
+}
+
+.inbox-first_page_inbox-first-schedule ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+    border-right-color: #32383c;
+}
+
+.wrap.ifklicked-wrap {
+    background: #fff;
+    padding: 40px;
+    margin-top: 22px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+}
+
+.inbox-first_page_inbox-first-schedule p#footer-left a, .wrap.ifklicked-wrap select a, div#ui-datepicker-div a {
+    color: #f8504b;
+}
+
+.wrap.ifklicked-wrap select, .wrap.ifklicked-wrap input[type=text] {
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+.inbox-first_page_inbox-first-schedule .button-primary {
+    background: #f8504b;
+    box-shadow: 0 1px 0 #ba3d3a;
+    text-shadow: none;
+    border-color: #ba3d3a;
+}
+
+.inbox-first_page_inbox-first-schedule .button-primary.focus, .inbox-first_page_inbox-first-schedule .button-primary.hover, .inbox-first_page_inbox-first-schedule .button-primary:focus, .inbox-first_page_inbox-first-schedule .button-primary:hover {
+    background: #ba3d3a;
+    border-color: #8f2e2c;
+    color: #fff;
+}
+
+.wrap.ifklicked-wrap input[type=text]:focus, .wrap.ifklicked-wrap input[type=search]:focus, .wrap.ifklicked-wrap input[type=radio]:focus, .wrap.ifklicked-wrap input[type=tel]:focus, .wrap.ifklicked-wrap input[type=time]:focus, .wrap.ifklicked-wrap input[type=url]:focus, .wrap.ifklicked-wrap input[type=week]:focus, .wrap.ifklicked-wrap input[type=password]:focus, .wrap.ifklicked-wrap input[type=checkbox]:focus, .wrap.ifklicked-wrap input[type=color]:focus, .wrap.ifklicked-wrap input[type=date]:focus, .wrap.ifklicked-wrap input[type=datetime]:focus, .wrap.ifklicked-wrap input[type=datetime-local]:focus, .wrap.ifklicked-wrap input[type=email]:focus, .wrap.ifklicked-wrap input[type=month]:focus, .wrap.ifklicked-wrap input[type=number]:focus, .wrap.ifklicked-wrap select:focus, .wrap.ifklicked-wrap textarea:focus {
+    border-color: #f8504b;
+}
+
+.wrap.ifklicked-wrap .form-table th, .form-table td {
+    padding: 15px 0;
+}
+
+.wrap.ifklicked-wrap table.form-table {
+    background: rgba(243, 243, 243, 0.3);
+    display: block;
+    width: 96%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap h2.schedule-sections {
+    background: #23282e;
+    color: #fff;
+    padding: 20px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-bottom: 0 !important;
+    width: 96%;
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap h2.schedule-sections input {
+    float: right;
+    margin-top: 1px;
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap table.form-table.active {
+    display: block !important;
+    margin-top: 0 !important;
+    border-radius: 0 0 2px 2px !important;
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap p.submit {
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap form {
+    margin-top: 40px;
+}
+
+.wrap.ifklicked-wrap.ifklicked-schedule-wrap h2.schedule-sections:hover {
+    background: #f8504a;
+}
+
+h2.schedule-sections.active {
+    background: #f8504a !important;
+}
+
+h2.schedule-sections span.success-sent, h2.schedule-sections span.error-sent {
+    font-weight: normal;
+    font-size: 0.8rem;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+
+h2.schedule-sections span.success-sent {
+    background: #00a355;
+}
+
+h2.schedule-sections span.error-sent {
+    background: #f8504a;
+}

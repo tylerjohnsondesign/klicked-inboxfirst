@@ -1,0 +1,168 @@
+span#loading img {
+    max-height: 28px;
+}
+
+span#loading {
+    width: 50.72px;
+    max-height: 28px;
+    display: inline-block;
+    text-align: center;
+}
+
+.ui-dialog-titlebar {
+    display: none;
+}
+
+div#confirmation-send {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 2px;
+}
+
+p.send-campaign-container, #confirmation-send .close {
+    text-align: right;
+}
+
+#confirmation-send .close span.close {
+    background: #c9c9c9;
+    color: #fff;
+    border-radius: 100px;
+    padding: 0 4px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+#confirmation-send .close span.close:hover {
+    background: #f8504b;
+}
+
+p.send-campaign-container {
+    margin-bottom: 0;
+}
+
+p.submit {
+    display: inline-block;
+    margin: 0 0 0 5px;
+    padding: 0;
+    vertical-align: top;
+}
+
+input#ifklicked_send_custom_subject {
+    display: none;
+}
+
+div#ui-datepicker-div {
+    background: #fff;
+    padding: 8px 12px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+a.ui-datepicker-prev, a.ui-datepicker-next {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+a.ui-datepicker-next {
+    float: right;
+}
+
+.ui-datepicker-title {
+    text-align: center;
+    font-weight:  bold;
+}
+
+td.ui-datepicker-unselectable {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+a.ui-state-default {
+    cursor: pointer;
+}
+
+table.ui-datepicker-calendar td {
+    min-width: 28px;
+    max-width: 28px !important;
+    padding: 6px 5px;
+    background: #f5f5f5;
+    text-align: center;
+}
+
+.inbox-first_page_inbox-first-send {
+    background: #32383c;
+}
+
+.inbox-first_page_inbox-first-send ul#adminmenu a.wp-has-current-submenu:after, ul#adminmenu>li.current>a.current:after {
+    border-right-color: #32383c;
+}
+
+.wrap.ifklicked-wrap {
+    background: #fff;
+    padding: 40px;
+    margin-top: 22px;
+    border-radius: 2px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .15);
+}
+
+.inbox-first_page_inbox-first-send p#footer-left a, .wrap.ifklicked-wrap select a, div#ui-datepicker-div a {
+    color: #f8504b;
+}
+
+.wrap.ifklicked-wrap select, .wrap.ifklicked-wrap input[type=text] {
+    box-shadow: none;
+    border-radius: 2px;
+}
+
+.inbox-first_page_inbox-first-send .button-primary {
+    background: #f8504b;
+    box-shadow: 0 1px 0 #ba3d3a;
+    text-shadow: none;
+    border-color: #ba3d3a;
+}
+
+.inbox-first_page_inbox-first-send .button-primary.focus, .inbox-first_page_inbox-first-send .button-primary.hover, .inbox-first_page_inbox-first-send .button-primary:focus, .inbox-first_page_inbox-first-send .button-primary:hover {
+    background: #ba3d3a;
+    border-color: #8f2e2c;
+    color: #fff;
+}
+
+.wrap.ifklicked-wrap input[type=text]:focus, .wrap.ifklicked-wrap input[type=search]:focus, .wrap.ifklicked-wrap input[type=radio]:focus, .wrap.ifklicked-wrap input[type=tel]:focus, .wrap.ifklicked-wrap input[type=time]:focus, .wrap.ifklicked-wrap input[type=url]:focus, .wrap.ifklicked-wrap input[type=week]:focus, .wrap.ifklicked-wrap input[type=password]:focus, .wrap.ifklicked-wrap input[type=checkbox]:focus, .wrap.ifklicked-wrap input[type=color]:focus, .wrap.ifklicked-wrap input[type=date]:focus, .wrap.ifklicked-wrap input[type=datetime]:focus, .wrap.ifklicked-wrap input[type=datetime-local]:focus, .wrap.ifklicked-wrap input[type=email]:focus, .wrap.ifklicked-wrap input[type=month]:focus, .wrap.ifklicked-wrap input[type=number]:focus, .wrap.ifklicked-wrap select:focus, .wrap.ifklicked-wrap textarea:focus {
+    border-color: #f8504b;
+}
+
+.wrap.ifklicked-wrap div#message-box span {
+    margin-top: 10px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.wrap.ifklicked-wrap div#message-box span.success {
+    background: #00a355;
+}
+
+.wrap.ifklicked-wrap div#message-box span.error {
+    background: #f8504b;
+}
+
+.inbox-first_page_inbox-first-send div#ui-datepicker-div {
+    display: none;
+}
+
+.wrap.ifklicked-wrap .form-table th, .form-table td {
+    padding: 15px 0;
+}
+
+.wrap.ifklicked-wrap table.form-table {
+    background: rgba(243, 243, 243, 0.3);
+    display: block;
+    width: 96%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px 0
+}
